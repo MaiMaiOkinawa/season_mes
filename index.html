@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Season</title>
+  </head>
+
+  <body>
+    <audio id="candle" src="sounds/candle.mp3"></audio>
+    <audio id="cherry_blossoms" src="sounds/cherry_blossoms.mp3"></audio>
+    <audio id="christmas_tree" src="sounds/christmas_tree.mp3"></audio>
+    <audio id="easter" src="sounds/easter.mp3"></audio>
+    <audio id="fall" src="sounds/fall.mp3"></audio>
+    <audio id="ghost" src="sounds/ghost.mp3"></audio>
+    <audio id="gift" src="sounds/gift.mp3"></audio>
+    <audio id="happy_easter" src="sounds/happy_easter.mp3"></audio>
+    <audio id="happy_halloween" src="sounds/happy_halloween.mp3"></audio>
+    <audio id="happy_new_year" src="sounds/happy_new_year.mp3"></audio>
+    <audio
+      id="happy_valentines_day"
+      src="sounds/happy_valentines_day.mp3"
+    ></audio>
+    <audio id="merry_christmas" src="sounds/merry_christmas.mp3"></audio>
+    <audio id="rice_cake" src="sounds/rice_cake.mp3"></audio>
+    <audio id="reindeer" src="sounds/reindeer.mp3"></audio>
+    <audio id="santa_claus" src="sounds/santa_claus.mp3"></audio>
+    <audio id="snowman" src="sounds/snowman.mp3"></audio>
+    <audio id="spring" src="sounds/spring.mp3"></audio>
+    <audio id="summer" src="sounds/summer.mp3"></audio>
+    <audio id="winter" src="sounds/winter.mp3"></audio>
+
+    <h1>season</h1>
+    <div class="container">
+      <!-- Candle -->
+      <div class="text">
+        <h3 class="text-title">Candle</h3>
+        <a onclick="document.getElementById('candle').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1528351655744-27cc30462816?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ろうそく</p>
+        </div>
+      </div>
+      <!-- Candle end -->
+
+      <!-- Cherry Blossoms -->
+      <div class="text">
+        <h3 class="text-title">Cherry Blossoms</h3>
+        <a onclick="document.getElementById('cherry_blossoms').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1522383225653-ed111181a951?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80"
+          />
+          <p class="img__description">さくら</p>
+        </div>
+      </div>
+      <!-- Cherry Blossoms end -->
+
+      <!-- Christmas Tree -->
+      <div class="text">
+        <h3 class="text-title">Christmas Tree</h3>
+        <a onclick="document.getElementById('christmas_tree').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1607882589955-27facfb459c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=858&q=80"
+          />
+          <p class="img__description">クリスマスツリー</p>
+        </div>
+      </div>
+      <!-- Christmas Tree end -->
+
+      <!-- Easter -->
+      <div class="text">
+        <h3 class="text-title">Easter</h3>
+        <a onclick="document.getElementById('easter').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1551524612-4b158646bc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=945&q=80"
+          />
+          <p class="img__description">イースター</p>
+        </div>
+      </div>
+      <!-- Easter end -->
+
+      <!-- Fall -->
+      <div class="text">
+        <h3 class="text-title">Fall</h3>
+        <a onclick="document.getElementById('fall').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1414788101029-46aec67101ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
+          />
+          <p class="img__description">あき</p>
+        </div>
+      </div>
+      <!-- Fall end -->
+
+      <!-- Ghost -->
+      <div class="text">
+        <h3 class="text-title">Ghost</h3>
+        <a onclick="document.getElementById('ghost').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1583680599407-f73ab374fff4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">おばけ</p>
+        </div>
+      </div>
+      <!-- Ghost end -->
+
+      <!-- Gift -->
+      <div class="text">
+        <h3 class="text-title">Gift</h3>
+        <a onclick="document.getElementById('gift').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1544639044-4f142ceb6a2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">おくりもの</p>
+        </div>
+      </div>
+      <!-- Gift end -->
+
+      <!-- Happy Easter -->
+      <div class="text">
+        <h3 class="text-title">Happy Easter</h3>
+        <a onclick="document.getElementById('happy_easter').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1617054069669-c2ee9edeef85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ハッピーイースター</p>
+        </div>
+      </div>
+      <!-- Happy Easter end -->
+
+      <!-- Happy Halloween -->
+      <div class="text">
+        <h3 class="text-title">Happy Halloween</h3>
+        <a onclick="document.getElementById('happy_halloween').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1539814999938-f986b9e4b66a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">ハッピーハローウィーン</p>
+        </div>
+      </div>
+      <!-- Happy Halloween end -->
+
+      <!-- Happy New Year -->
+      <div class="text">
+        <h3 class="text-title">Happy New Year</h3>
+        <a onclick="document.getElementById('happy_new_year').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1577046848358-4623c0859b8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">あけましておめでとう</p>
+        </div>
+      </div>
+      <!-- Happy New Year end -->
+
+      <!-- Happy Valentine's Day -->
+      <div class="text">
+        <h3 class="text-title">Happy Valentine's Day</h3>
+        <a onclick="document.getElementById('happy_valentines_day').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1516292219376-2741c4d9318a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+          />
+          <p class="img__description">ハッピーバレンタインデイ</p>
+        </div>
+      </div>
+      <!-- Happy Valentine's Day end -->
+
+      <!-- Merry Christmas -->
+      <div class="text">
+        <h3 class="text-title">Merry Christmas</h3>
+        <a onclick="document.getElementById('merry_christmas').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1576006795446-1478768307a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">メリークリスマス</p>
+        </div>
+      </div>
+      <!-- Merry Christmas end -->
+
+      <!-- Rice Cake -->
+      <div class="text">
+        <h3 class="text-title">Rice Cake</h3>
+        <a onclick="document.getElementById('rice_cake').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1670543727028-27995bd506f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1029&q=80"
+          />
+          <p class="img__description">もち</p>
+        </div>
+      </div>
+      <!-- Rice Cake end -->
+
+      <!-- Reindeer -->
+      <div class="text">
+        <h3 class="text-title">Reindeer</h3>
+        <a onclick="document.getElementById('reindeer').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1589659925724-1dbf17849e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">トナカイ</p>
+        </div>
+      </div>
+      <!-- Reindeer end -->
+
+      <!-- Santa Claus -->
+      <div class="text">
+        <h3 class="text-title">Santa Claus</h3>
+        <a onclick="document.getElementById('santa_claus').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1640035612654-ce34fbc4b30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">サンタクロース</p>
+        </div>
+      </div>
+      <!-- Santa Claus end -->
+
+      <!-- Snowman -->
+      <div class="text">
+        <h3 class="text-title">Snowman</h3>
+        <a onclick="document.getElementById('snowman').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1603612404700-8706b395961f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ゆきだるま</p>
+        </div>
+      </div>
+      <!-- Snowman end -->
+
+      <!-- Spring -->
+      <div class="text">
+        <h3 class="text-title">Spring</h3>
+        <a onclick="document.getElementById('spring').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1602953589577-a7e91286f5ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">はる</p>
+        </div>
+      </div>
+      <!-- Spring end -->
+
+      <!-- Summer -->
+      <div class="text">
+        <h3 class="text-title">Summer</h3>
+        <a onclick="document.getElementById('summer').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1463023822994-4424fc706fbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">なつ</p>
+        </div>
+      </div>
+      <!-- Summer end -->
+
+      <!-- Winter -->
+      <div class="text">
+        <h3 class="text-title">Winter</h3>
+        <a onclick="document.getElementById('winter').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1487424439918-bc6b5bef0380?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=80"
+          />
+          <p class="img__description">ふゆ</p>
+        </div>
+      </div>
+      <!-- Winter end -->
+    </div>
+
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
